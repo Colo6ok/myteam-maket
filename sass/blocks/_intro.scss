@@ -1,0 +1,52 @@
+.intro {
+  position: relative;
+  min-width: 1300px;
+  min-height: 450px;
+  background-color: #014e56;
+}
+
+.dc-pic {
+  position: absolute;
+  left: 0;
+}
+
+.dc-pic2 {
+    position: absolute;
+    right: 100px;
+    bottom: 0;
+}
+
+.intro__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.intro__title {
+  max-width: 615px;
+  font-weight: 700;
+  font-size: 100px;
+  color: white;
+  margin: 0;
+}
+
+.intro__controller {
+  color: #f67e7e;
+}
+
+.intro__desc {
+  max-width: 445px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+
+  &::before {
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #79c8c7;
+    margin-bottom: 79px;
+    content: "";
+  }
+}

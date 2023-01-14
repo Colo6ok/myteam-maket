@@ -1,0 +1,42 @@
+.contact {
+    position: relative;
+  min-width: 1300px;
+  min-height: 200px;
+  background-color: #f67e7e;
+}
+
+.dc-pic5 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.contact__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 76px;
+}
+
+.contact__title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #012f34;
+}
+
+.contact__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  color: #012f34;
+  border: 2px solid #012f34;
+  border-radius: 24px;
+  padding: 11px 33px;
+
+  &:hover {
+    background-color: #012f34;
+    color: #fff;
+  }
+}
